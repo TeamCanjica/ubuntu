@@ -140,4 +140,13 @@
 
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
   <project path="ubuntu/uchroot" name="ubuntu/uchroot" revision="refs/heads/master" />
+
+  <project path="kernel/sony/u8500" name="TeamCanjica/sony-kernel-u8500" remote="github" revision="jellybean" />
+  <project path="vendor/sony" name="TeamCanjica/android_vendor_sony" remote="github" revision="cm10.1" />
+  <project path="device/sony/montblanc-common" name="TeamCanjica/android_device_sony_montblanc-common" remote="github" revision="cm10.1" />
+  <project path="device/sony/kumquat" name="TeamCanjica/android_device_sony_kumquat" remote="github" revision="cm10.1" />
+  <project path="device/sony/lotus" name="TeamCanjica/android_device_sony_lotus" remote="github" revision="cm10.1" />
+  <project path="device/sony/pepper" name="TeamCanjica/android_device_sony_pepper" remote="github" revision="cm10.1" />
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="jellybean" />
+
 </manifest>
